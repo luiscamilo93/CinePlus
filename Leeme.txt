@@ -1,0 +1,7 @@
+Para abrir el proyecto se tiene que contar con la versión de Visual Studio 2022 más actualizada.
+
+Se tiene que cambiar el connection string de la base de datos al host local en el archivo appsettings.json
+
+"ConnectionStrings": {
+"MovieDbContext": "Data Source=localhost\\SQLEXPRESS;Initial Catalog=moviedb;Integrated Security=True;Trust Server Certificate=True"
+}
